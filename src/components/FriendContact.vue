@@ -7,6 +7,7 @@
             <li><strong>Email: {{ emailAddress }}</strong></li>
             <li><strong>Phone: {{ phoneNumber }}</strong></li>
         </ul>
+        <button @click="$emit('delete', id)">Delete Friend</button>
     </li>
 </template>
 
